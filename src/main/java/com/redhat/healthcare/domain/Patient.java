@@ -26,4 +26,9 @@ public class Patient implements Serializable {
 		this.patientFullName = name;
 	}
 
+	@Override
+	public String toString() {
+		return "Patient [id=" + id + ", patientFullName=" + patientFullName + "]";
+	}
+
 }
